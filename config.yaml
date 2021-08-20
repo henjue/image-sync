@@ -1,11 +1,11 @@
 auth:
-  registry.hub.docker.com:
-    username: USERNAME
-    password: PASSWORD
+  registry.cn-chengdu.aliyuncs.com:
+      username: USERNAME
+      password: PASSWORD
 images:
-  k8s.gcr.io/sig-storage/csi-attacher: henjue/csi-attacher
-  k8s.gcr.io/sig-storage/csi-snapshotter: henjue/csi-snapshotter
-  k8s.gcr.io/sig-storage/csi-provisioner: henjue/csi-provisioner
-  k8s.gcr.io/sig-storage/csi-resizer: henjue/csi-resizer
-  k8s.gcr.io/sig-storage/csi-node-driver-registrar: henjue/csi-node-driver-registrar
+  k8s.gcr.io/sig-storage/csi-attacher: registry.cn-chengdu.aliyuncs.com/k8s_sync/csi-attacher
+  k8s.gcr.io/sig-storage/csi-snapshotter: registry.cn-chengdu.aliyuncs.com/k8s_sync/csi-snapshotter
+  k8s.gcr.io/sig-storage/csi-provisioner: registry.cn-chengdu.aliyuncs.com/k8s_sync/csi-provisioner
+  k8s.gcr.io/sig-storage/csi-resizer: registry.cn-chengdu.aliyuncs.com/k8s_sync/csi-resizer
+  k8s.gcr.io/sig-storage/csi-node-driver-registrar: registry.cn-chengdu.aliyuncs.com/k8s_sync/csi-node-driver-registrar
 
